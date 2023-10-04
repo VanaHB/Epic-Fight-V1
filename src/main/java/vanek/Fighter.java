@@ -60,6 +60,6 @@ public class Fighter {
 
     @Override
     public String toString() {
-        return String.format("%s has strength of %d and protection of %d", name, strenght, protection);
+        return String.format("%s has strength of %d and protection of %d.", name, strenght, protection);
     }
 }
